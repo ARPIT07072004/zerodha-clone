@@ -1,59 +1,67 @@
 # 🔁 Zerodha Clone
 
-The aim of this project is to create a **frontend replica of [Zerodha.com](https://zerodha.com)** for learning and demonstration purposes.
+The aim of this project is to create a **full-stack replica of [Zerodha.com](https://zerodha.com)** using modern web technologies.
 
 ---
 
 ## 🎯 Project Overview
 
-This clone replicates the layout, navigation, and key sections of the Zerodha website, including:
+This project replicates the look and feel of Zerodha’s website and includes both **frontend (React)** and **backend (Node.js, Express, MongoDB)** functionality.
 
-- A functional navigation bar with 3 primary routes
-- Product section with sub-options like **Technology** and **Investment**
-- Fully designed footer section
-- Responsive layout suitable for all screen sizes
+### 🧩 Features Include:
+
+- A responsive, multi-route frontend UI
+- A backend server built with Express.js
+- MongoDB integration for data storage
+- Simulated login, products display, and more
 
 ---
 
 ## 🛠️ Tech & Tools Used
 
+### 📦 Frontend:
 - **React.js**
 - **React Router DOM**
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
+
+### 🖥️ Backend:
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **Mongoose**
+
+### 🧰 Other Tools:
 - **VS Code**
 - **Git & GitHub**
+- **Postman (for API testing)**
 
 ---
 
-## 🌐 Live Web App
-
-🔗 [Live App Link](https://your-deployment-link.com)  
-> _Replace with actual deployed URL (like Vercel/Netlify)_
-
----
 
 ## 📌 Key Features
 
-- ✅ Clean and responsive **navigation bar**
-- ✅ Fully styled and structured **footer**
-- ✅ Separate **products section** with:
+- ✅ Navigation bar with 3 main routes
+- ✅ Footer design similar to original site
+- ✅ Product section with:
   - Technology
   - Investment
-- ✅ User-friendly routing with **React Router**
-- ✅ Organized code structure and reusability
+- ✅ Express server handling RESTful APIs
+- ✅ MongoDB database integration
+- ✅ Clean code architecture (MVC where applicable)
 
 ---
 
-## 📁 How to Run Locally
+## 📁 How to Run the Project Locally
 
+### 🚀 Frontend (React)
 ```bash
-# Clone the repository
 git clone https://github.com/ARPIT07072004/zerodha-clone.git
-
-# Navigate into the project folder
 cd zerodha-clone
+npm install
+npm start
+
 
 # Install all dependencies
 npm install
